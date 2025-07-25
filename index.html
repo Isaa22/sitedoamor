@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Primeiro Mesversário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="heart-pulse"><i class="fas fa-heart"></i></div>
+            <h1>Feliz 1 Mês de Namoro!</h1>
+            <p class="subtitle">Uma jornada de amor que só está começando</p>
+        </header>
+
+        <main>
+            <section class="photo-gallery">
+                <div class="photo-frame">
+                    <img src="images/couple.jpg" alt="Nós dois" class="couple-photo">
+                    <div class="photo-overlay">
+                        <i class="fas fa-heart overlay-icon"></i>
+                    </div>
+                </div>
+                <div class="photo-stack">
+                    <div class="stack-item" style="--rotation: -5deg;"><i class="fas fa-image placeholder-icon"></i></div>
+                    <div class="stack-item" style="--rotation: 5deg;"><i class="fas fa-image placeholder-icon"></i></div>
+                </div>
+            </section>
+
+            <section class="love-letter">
+                <div class="letter-container">
+                    <div class="letter-header">
+                        <img src="icons/love-letter.svg" alt="Carta de amor" class="letter-icon">
+                        <h2>Para o Amor da Minha Vida</h2>
+                    </div>
+                    <div class="letter-content">
+                        <p>Meu amor,</p>
+                        <p>Hoje completamos um mês juntos, e cada dia ao seu lado tem sido mágico. Você ilumina minha vida de uma maneira que nunca pensei ser possível.</p>
+                        <p>Lembro do nosso primeiro encontro, do primeiro beijo, e de todos os momentos especiais que compartilhamos desde então. Você é a pessoa mais incrível que já conheci.</p>
+                        <p>Este é apenas o primeiro de muitos meses que passaremos juntos, construindo memórias e fortalecendo nosso amor.</p>
+                        <p>Com todo meu amor,</p>
+                        <p class="signature">Seu(a) amoroso(a)</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="memories">
+                <h2>Nossas Melhores Lembranças</h2>
+                <div class="memory-grid">
+                    <div class="memory-card">
+                        <div class="memory-icon"><i class="fas fa-glass-cheers"></i></div>
+                        <h3>Nosso Primeiro Encontro</h3>
+                        <p>Aquele dia especial quando nossas vidas se cruzaram.</p>
+                    </div>
+                    <div class="memory-card">
+                        <div class="memory-icon"><i class="fas fa-kiss-wink-heart"></i></div>
+                        <h3>Primeiro Beijo</h3>
+                        <p>O momento mágico que selou nosso destino.</p>
+                    </div>
+                    <div class="memory-card">
+                        <div class="memory-icon"><i class="fas fa-heart"></i></div>
+                        <h3>Declaração de Amor</h3>
+                        <p>Quando nossos corações falaram mais alto.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="hearts-container">
+                <i class="fas fa-heart floating-heart" style="--delay: 0s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 1s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 2s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 3s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 4s;"></i>
+            </div>
+            <p>Feito com <i class="fas fa-heart"></i> para o amor da minha vida</p>
+            <p class="countdown" id="countdown">Próximo mesversário em: 29 dias</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
